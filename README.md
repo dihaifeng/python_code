@@ -1,1 +1,4 @@
-# python_code
+## /usr/bin/env python3
+## -*- coding=utf-8 -*-
+
+
