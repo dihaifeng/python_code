@@ -7,5 +7,3 @@ def monitor():
 def sum(*args,**wargs):
     pass
 
-def count():
-    pass
