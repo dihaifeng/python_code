@@ -7,5 +7,5 @@ def mov(n,a,b,c):
         mov(n-1,a,c,b)
         mov(1,a,b,c)
         mov(n-1,b,a,c)
-num = input("num:")
+num = input("number:")
 mov(int(num),'A','B','C')
