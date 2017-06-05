@@ -1,6 +1,5 @@
 ## Python学习网站
-* python-cookbook http://python3-cookbook.readthedocs.io/zh_CN/latest/preface.html#
-* [foo]: http://python3-cookbook.readthedocs.io/zh_CN/latest/preface.html#  "python-cookbook"
+* [python-cookbook](http://python3-cookbook.readthedocs.io/zh_CN/latest)
 
 
 ## 代码部署：
