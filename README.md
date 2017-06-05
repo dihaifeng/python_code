@@ -1,7 +1,9 @@
-## Python学习网站
+## Python网站
 * [python-cookbook](http://python3-cookbook.readthedocs.io/zh_CN/latest)
 
 
+## python开发工具
+* [pycharm激活](http://xidea.online)
 ## 代码部署：
 * 获取代码：使用公司gitlab统一管理,指定提交代码的规范
 * 编译：根据环境不同,考虑是否使用静态库或在docker中创建不同的编译环境
