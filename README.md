@@ -1,18 +1,6 @@
-## 下步工作：
-* 编译依赖基础镜像
-* 编译产物的地址gitlab
-* 预览部署详情接口:
+## Python学习网站
+* python-cookbook http://python3-cookbook.readthedocs.io/zh_CN/latest/preface.html#
 
-      异步读取更新状态,每分钟获取一次，返回前端；
-      通过解耦合的方式,更新状态写入mysql,然后前端请求时,从数据库里查询。
-* 通知
-* 主机列表接口一对多
-* 增量上线接口，
-* 返回状态码
-* 部署日志message
-* svn 迁移git
-* gerrit sina2.8是否全部迁移到weibo
-* 推荐gitlab
 
 ## 代码部署：
 * 获取代码：使用公司gitlab统一管理,指定提交代码的规范
