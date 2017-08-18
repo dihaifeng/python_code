@@ -1,0 +1,29 @@
+## 创建类
+
+#### 根据类自动创建数据库表
+
+###### 创建表
+
+```
+from django.db import models
+
+class UserInfo(models.Model):
+
+    #默认Django会创建一个id列，此列为自增ID，主键
+    username = models.CharField(max_length=32)
+    password = models.CharField(max_length=64)
+
+    #创建数据库
+    python3 manage.py makmigrations
+    python3 manage.py migrate
+
+    #注意
+    Django默认使用MySQLdb模块链接MySQL
+    需要主动修改为pymysql：在project同名文件夹下的__init__.py文件中填写以下代码即可：
+        import pymysql
+        pymysql.install_as_MySQLdb()
+
+```
+
+
+#### 根据类对数据库表中的数据进行各种操作
