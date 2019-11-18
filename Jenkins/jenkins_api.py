@@ -143,7 +143,7 @@ class Jenkins_API():
         if exist:
             config_xml = self.server.get_job_config(job_name)
         else:
-            config_xml = self.build_xml_template
+            config_xml = self.build_xml`_template
         log.info("Reconfig jenkins job [%s] with [desc: %s git: %s buildcommand: %s]", job_name, detail,git_path, build_command)
         config_root = ET.fromstring(config_xml)
         config_root.find('description').text = detail
@@ -215,12 +215,12 @@ class Jenkins_API():
 
 
 
-# Jenkins_User = 'haifeng18@staff.weibo.com'
-# Jenkins_Token = 'e1a8e41cd2317b3f80a628d6c8e89cd2'
-# Jenkins_URL = 'http://jenkins.biz.weibo.com/'
-# ja = Jenkins_API(Jenkins_URL, Jenkins_User, Jenkins_Token)
+# Jenkins_U = ''
+# Jenkins_T = ''
+# Jenkins_URL = 'http://jenkinx.xxx.xxx.com/'
+# ja = Jenkins_API(Jenkins_URL, Jenkins_U, Jenkins_T)
 # print(ja.get_tags())
-# j = jenkins.Jenkins(Jenkins_URL, username=Jenkins_User, password=Jenkins_Token)
+# j = jenkins.Jenkins(Jenkins_URL, username=xxxxxx, password=xxxxxxxxx)
 # print(j.get_whoami())
 
 # # print(j.get_all_jobs())
